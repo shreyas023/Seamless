@@ -4,6 +4,11 @@
   "description": "This is the portfolio website",
   "main": "server.js",
   "type": "commonjs",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0",
+    "vercel": "^"
+  },
   "scripts": {
     "test": "jest",
     "start": "nodemon server.js",
